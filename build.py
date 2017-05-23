@@ -1,12 +1,6 @@
-#Determine if a number is a power of two
-def power_of_two(n):
-    if (n & (n - 1)) == 0:
-        return True
-        print("Power of 2")
-        
-    else:
+def is_power_of_two(n):
+    if n is None:
+        raise TypeError('n cannot be None')
+    if n <= 0:
         return False
-        print("Wrong No")
-
-
-#power_of_two(8)
+    return (n & (n - 1)) == 0

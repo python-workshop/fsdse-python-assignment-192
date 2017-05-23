@@ -1,5 +1,5 @@
-# fsdse-python-assignment-192
 # Determine if a number is a power of two
+
 ## Constraints
 * Is the input number an int?
 	* Yes
